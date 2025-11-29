@@ -5,7 +5,7 @@ body {
 
 header {
     width: 100%;
-    background: url(header_bg.jpg);
+    background: url(photo/header_bg.jpg);
     background-size: cover;
     display: flex; 
 }
@@ -98,7 +98,7 @@ footer {
     width: 100%;
     height: 100px;
     position: relative;
-    background-image: url(footer_bg.png);
+    background-image: url(photo/footer_bg.png);
     background-size: cover;
     background-position: center;
 }

@@ -6,6 +6,14 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/f77600b8df.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Science+Gothic&display=swap" rel="stylesheet">
+    <script>
+    document.querySelector('.header_btn').addEventListener('click', function () {
+        const target = document.querySelector('.skills');
+        if (target) {
+            target.scrollIntoView({ behavior: 'smooth' });
+        }
+    });
+    </script>
 </head>
 <body>
     <header> 
@@ -65,5 +73,11 @@
             Створено Nikita_Sder в 2025 | Logika
         </div>
     </footer>
+    <script>
+    document.querySelector('.header_btn').addEventListener('click', function() {
+        const target = document.querySelector('.skills');
+        target.scrollIntoView({ behavior: 'smooth' });
+    });
+    </script>
 </body>
 </html>
